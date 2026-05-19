@@ -1,1 +1,60 @@
-
+* {
+padding: 0px;
+margin: 0px;
+}
+body {
+    min-height: 100vh;
+background: linear-gradient(to bottom,#148024, #090979 ) 
+}
+.box {
+    height: 500px;
+    width: 600px;
+    border: solid rgb(0, 85, 33) 3px;
+    border-radius: 5px;
+    display: flexbox;
+    justify-self: center;
+    margin-top: 200px; 
+    background-color: #01010c;
+    color: azure;
+    font-family: sans-serif;
+    font-weight: 700px;
+}
+.search > input {
+    background-color: #1b1b1b;
+    color: azure;
+    font-family: sans-serif;
+    font-weight: 700px;
+    display: flex;
+    justify-self: center;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+.cont {
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+    height: 471px;
+    justify-content: space-between;
+    align-self: stretch;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.image {
+    justify-self: flex-start;
+    flex-direction: column;
+    align-content: center;
+    width: 303px;
+}
+.informside {
+    justify-content: flex-end;
+    flex-direction: column;
+    width: 303px;
+}
+.informside > div {
+    padding-top: 20px;
+    display: flex;
+}
+.deg {
+    justify-self: flex-end;
+    margin-left: 30px;
+}
